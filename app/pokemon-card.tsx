@@ -1,8 +1,5 @@
 import Image from 'next/image';
 
-// Presentational only — no 'use client', no data fetching.
-// Usable from both Server Components (page.tsx) and Client Components (pokemon-picker.tsx).
-
 export function artworkUrl(id: number) {
   return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
 }
